@@ -16,7 +16,7 @@ public class DemoOpenshiftApplication {
 
 	@GetMapping("/greet")
 	public String greetings() {
-		return "Hello there...";
+		return "Greetings! Hello there...";
 	}
 
 	@GetMapping("/greet/{input}")
